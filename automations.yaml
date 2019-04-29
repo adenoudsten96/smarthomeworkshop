@@ -1,0 +1,12 @@
+- id: '1556535207682'
+  alias: Huis luchtvochtigheid
+  trigger:
+  - above: '40'
+    entity_id: sensor.dht_sensor_humidity
+    platform: numeric_state
+  condition: []
+  action:
+  - data:
+      message: 'De luchtvochtigheid in je huis is boven de 40%, namelijk: {{ states.sensor.dht_sensor_humidity.state_with_unit }}'
+      title: Luchtvochtigheid boven 40%
+    service: persistent_notification.create
