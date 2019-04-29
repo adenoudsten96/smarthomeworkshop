@@ -25,3 +25,4 @@ blablabla
 - stappen doorlopen dashboard
 - json plakken
 
+![Pi aansluiting](raspbeery-pi-dht11-temperatuur-sensor.jpg)
