@@ -21,9 +21,9 @@ Voordat je de Pi aan zet gaan we eerst de DHT11 sensor aansluiten. Doe dit als v
 
 Let op dat je de oriëntatie van de DHT11 goed hebt. Gebruik onderstaande diagrammen als hulpmiddel.
 
-![Aansluiting](C:\Users\Alex\OneDrive - Stichting Hogeschool Utrecht\CS\smarthomeworkshop\aansluiting.jpg)
+![Aansluiting](aansluiting.jpg)
 
-![GPIO pins](C:\Users\Alex\OneDrive - Stichting Hogeschool Utrecht\CS\smarthomeworkshop\gpio.jpg)
+![GPIO pins](gpio.jpg)
 
 ### Stap 2: Verbinden Home Assistant
 
