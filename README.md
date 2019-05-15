@@ -44,14 +44,14 @@ In deze stap gaan we de DHT11 sensor koppelen aan Home Assistant. Dit gaan we do
 
 - Zet een SSH verbinding op naar het IP adres van je Raspberry Pi, met **username: pi** en **wachtwoord: raspberry**. Navigeer naar de Home Assistant folder:
 
-- ```bash
+ ```bash
   cd /home/homeassistant/.homeassistant
   sudo nano configuration.yaml
   ```
 
 - Zet vervolgens de volgende configuratie in de file. Let op spatiegebruik:
 
-- ```yaml
+ ```yaml
   sensor:
     - platform: dht
       sensor: DHT11
@@ -63,7 +63,7 @@ In deze stap gaan we de DHT11 sensor koppelen aan Home Assistant. Dit gaan we do
 
 - Herstart nu de Raspberry Pi:
 
-- ```shell
+ ```shell
   sudo reboot
   ```
 
@@ -94,7 +94,7 @@ Nu de DHT11 sensor gekoppeld is aan Home Assistant gaan we deze gebruiken voor h
 
   - Service data: hier moet je wat JSON in plakken:
 
-    - ```json
+     ```json
       {
           "title": "Luchtvochtigheid boven 40%",
           "message": "De luchtvochtigheid in je huis is boven de 40%, namelijk: {{ states.sensor.dht_sensor_humidity.state_with_unit }}"
