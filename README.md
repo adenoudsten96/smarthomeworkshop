@@ -73,7 +73,7 @@ In deze stap gaan we de DHT11 sensor koppelen aan Home Assistant. Dit gaan we do
 
 ## Stap 4: Automation maken
 
-Nu de DHT11 sensor gekoppeld is aan Home Assistant gaan we deze gebruiken voor het opzetten van een "automation". We maken voor deze workshop een simpele automation: als de luchtvochtigheid onder een bepaald % komt genereren we een notificatie op het dashboard. Met Home Assistant kun je echter nog veel meer en complexere automations maken.
+Nu de DHT11 sensor gekoppeld is aan Home Assistant gaan we deze gebruiken voor het opzetten van een "automation". We maken voor deze workshop een simpele automation aan: als de luchtvochtigheid boven een bepaald % komt genereren we een notificatie op het dashboard. Met Home Assistant kun je echter nog veel meer en complexere automations maken.
 
 - Navigeer in het dashboard naar Instellingen > Automatisering > Rechtsonderin op het plusje
 
