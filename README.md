@@ -42,14 +42,14 @@ Als het goed is kom je nu op het dashboard van de Home Assistant software terech
 
 In deze stap gaan we de DHT11 sensor koppelen aan Home Assistant. Dit gaan we doen middels het aanpassen van een configuratiefile via SSH. Aan het einde moeten de waarden van de sensor in het dashboard beschikbaar zijn. Volg deze stappen:
 
-- Zet een SSH verbinding op naar het IP adres van je Raspberry Pi, met **username: pi** en **wachtwoord: raspberry**. Navigeer naar de Home Assistant folder:
+- Zet een SSH verbinding op naar het IP adres van je Raspberry Pi, met **username: pi** en **wachtwoord: raspberry**. Op Windows kun je dit nu doen via `cmd` met het volgende commando: `ssh pi@<ip adres>`. Navigeer naar de Home Assistant folder:
 
  ```bash
   cd /home/homeassistant/.homeassistant
   sudo nano configuration.yaml
   ```
 
-- Zet vervolgens de volgende configuratie in de file. Let op spatiegebruik:
+- Zet vervolgens de volgende configuratie in de file. Scroll naar beneden totdat je het `sensor` gedeelte vindt. Let op spatiegebruik:
 
  ```yaml
   sensor:
