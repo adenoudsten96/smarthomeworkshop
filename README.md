@@ -20,7 +20,7 @@ Voordat je de Pi aan zet gaan we eerst de DHT11 sensor aansluiten. Doe dit als v
 - Sensor Pin 3  gebruiken we niet.
 - Sensor Pin 4 -> Raspberry Pi pin 6 (Ground)
 
-Let op dat je de oriëntatie van de DHT11 goed hebt en de weerstand op de juiste manier hebt aangesloten. Gebruik onderstaande diagrammen als hulpmiddel.
+Let op dat je de oriëntatie van de DHT11 goed hebt en de weerstand op de juiste manier hebt aangesloten. Gebruik onderstaande diagrammen als hulpmiddel. Mocht de sensor moeilijk in het breadboard gaan, prik er dan eerst met een kabeltje in.
 
 ![Aansluiting](aansluiting.jpg)
 
