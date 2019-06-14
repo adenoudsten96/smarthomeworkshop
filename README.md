@@ -61,6 +61,7 @@ In deze stap gaan we de DHT11 sensor koppelen aan Home Assistant. Dit gaan we do
         - humidity
   ```
 
+- Sla het bestand op met Ctrl+O, sluit het bestand vervolgens met Ctrl+X
 - Herstart nu de Raspberry Pi:
 
  ```shell
