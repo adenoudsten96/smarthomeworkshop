@@ -28,12 +28,12 @@ Let op dat je de oriëntatie van de DHT11 goed hebt en de weerstand op de juiste
 
 ## Stap 2: Verbinden Home Assistant
 
-Nu we de sensor hebben aangesloten gaan we verbinden met de Home Assistant software. Als het goed is zit er een post-it op je Raspberry Pi met een adres, deze heb je zometeen nodig. Volg nu deze stappen:
+Nu we de sensor hebben aangesloten gaan we verbinden met de Home Assistant software. Als het goed is zit er een post-it op je Raspberry Pi met groepnummer, deze heb je zometeen nodig. Volg nu deze stappen:
 
 - Sluit de stroom aan op je Raspberry Pi met de bijgeleverde USB-kabel
 - Verbind op je laptop met het Wi-Fi netwerk "SmartHomeWorkshop", het wachtwoord is **Appelflap1**
 - Wacht 1-2 minuten zodat de Pi kan opstarten
-- Op je laptop, navigeer met je browser naar het adres van je Raspberry Pi met groepnummer op poort 8123. Dus bijvoorbeeld: `http://groep2.smarthome.nl:8123`
+- Op je laptop, navigeer met je browser naar het adres van je Raspberry Pi met `groep<nummer>.smarthome.nl` op poort 8123. Dus bijvoorbeeld: `http://groep2.smarthome.nl:8123`
 - Log in met **username: pi** en **wachtwoord: Appelflap1**
 
 Als het goed is kom je nu op het dashboard van de Home Assistant software terecht. Ga verder naar de volgende stap.
